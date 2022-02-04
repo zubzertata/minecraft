@@ -1,0 +1,559 @@
+[19:24:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:24:09] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[19:24:10] [Worker-Main-4/INFO]: Loaded 7 recipes
+[19:24:11] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[19:24:11] [Server thread/INFO]: Loading properties
+[19:24:11] [Server thread/INFO]: This server is running Paper version git-Paper-181 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 2121aed)
+[19:24:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:24:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:24:11] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Controlador no válido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-181]
+	Suppressed: java.io.IOException: Controlador no válido
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-181]
+[19:24:11] [Server thread/INFO]: Default game type: SURVIVAL
+[19:24:11] [Server thread/INFO]: Generating keypair
+[19:24:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:24:11] [Server thread/INFO]: Using default channel type
+[19:24:11] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:24:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:24:12] [Server thread/ERROR]: Could not load 'plugins\Jobs5.0.1.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'Jobs'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:290) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:422) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:285) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-181]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:24:12] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:24:15] [Server thread/WARN]: Legacy plugin NametagEdit v4.4.10 does not specify an api-version.
+[19:24:15] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.86
+[19:24:15] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[19:24:15] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[19:24:15] [Server thread/INFO]: [ChestsPlusPlus] Loading ChestsPlusPlus v2.5-Release
+[19:24:15] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.4.10
+[19:24:15] [Server thread/INFO]: [EntityDuplicate] Loading EntityDuplicate v1.0
+[19:24:15] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[19:24:15] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.18.1) has not yet been tested! Proceed with caution.
+[19:24:16] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[19:24:16] [Server thread/INFO]: [FarmingUpgrade] Loading FarmingUpgrade v1.3.3
+[19:24:16] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.3-Release
+[19:24:16] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[19:24:16] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:24:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.2
+[19:24:16] [Server thread/INFO]: [ChestSort] Loading ChestSort v12.1.0
+[19:24:16] [Server thread/INFO]: [ItemEdit] Loading ItemEdit v2.18.3
+[19:24:16] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[19:24:16] [Server thread/INFO]: [BetterSleeping4] Loading BetterSleeping4 v4.0.1
+[19:24:16] [Server thread/INFO]: [YamipaPlugin] Loading YamipaPlugin v1.2.0
+[19:24:16] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v2.0.2-SNAPSHOT-84;faa2477
+[19:24:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1d734c04]
+[19:24:17] [Server thread/INFO]: [Slimefun] Loading Slimefun vDEV - 999 (git e02eedd9)
+[19:24:17] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.2
+[19:24:17] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[19:24:17] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.2
+[19:24:17] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.4
+[19:24:17] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[19:24:17] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.14.2-31415198
+[19:24:17] [Server thread/INFO]: [LumineUtils] (io.lumine.xikage.mythicmobs.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+[19:24:17] [Server thread/INFO]: [Codex] Loading Codex v1.11.1
+[19:24:17] [Server thread/INFO]: [Graves] Loading Graves v4.5
+[19:24:17] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.6+1cff55f.
+[19:24:17] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[19:24:17] [Server thread/INFO]: [CrisTreeCapitator] Loading CrisTreeCapitator v6.2.7
+[19:24:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:24:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.86
+[19:24:17] [Server thread/INFO]:         __    
+[19:24:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.86
+[19:24:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:24:17] [Server thread/INFO]: 
+[19:24:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:24:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:24:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:24:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:24:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1156ms)
+[19:24:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[19:24:18] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:24:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:24:18] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.2 which is not a depend or softdepend of this plugin.
+[19:24:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:24:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:24:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:24:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:24:18] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.0.2-SNAPSHOT-84;faa2477
+[19:24:18] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[19:24:18] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[19:24:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:24:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:24:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_18_R1.PaperweightFaweAdapter as the Bukkit adapter
+[19:24:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:24:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:24:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:24:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:24:20] [Server thread/INFO]: Preparing level "world"
+[19:24:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:24:20] [Server thread/INFO]: Time elapsed: 201 ms
+[19:24:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:24:20] [Server thread/INFO]: Time elapsed: 74 ms
+[19:24:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[19:24:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:24:21] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[19:24:21] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[19:24:21] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:24:21] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_18_R1.MinecraftServer)
+[19:24:21] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:24:21] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:24:21] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:24:21] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.18]...
+[19:24:21] [Server thread/INFO]: [ChestsPlusPlus] Enabling ChestsPlusPlus v2.5-Release
+[19:24:21] [Server thread/INFO]: [ChestsPlusPlus] Loaded default language file
+[19:24:21] [Server thread/INFO]: [ChestsPlusPlus] Found API version: v1_18_R1
+[19:24:21] [Server thread/INFO]: [ChestsPlusPlus] Detected Server Type: PAPER
+[19:24:21] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.4.10*
+[19:24:21] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_18_R1.PacketPlayOutScoreboardTeam
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.packets.PacketAccessor.<clinit>(PacketAccessor.java:59)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.packets.PacketWrapper.<clinit>(PacketWrapper.java:25)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:90)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.onEnable(NametagEdit.java:40)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:24:21] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_18_R1.ChatComponentText
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.packets.PacketWrapper.<clinit>(PacketWrapper.java:28)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:90)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.onEnable(NametagEdit.java:40)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:24:21] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.newInstance()" because "com.nametagedit.plugin.packets.PacketAccessor.packetClass" is null
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.packets.PacketAccessor.createPacket(PacketAccessor.java:123)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.packets.PacketWrapper.<init>(PacketWrapper.java:18)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:90)
+[19:24:21] [Server thread/WARN]: 	at NametagEdit.jar//com.nametagedit.plugin.NametagEdit.onEnable(NametagEdit.java:40)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+[19:24:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+[19:24:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[19:24:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:24:21] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.4.10
+[19:24:21] [Server thread/ERROR]: Error occurred while disabling NametagEdit v4.4.10 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagManager.reset()" because "this.manager" is null
+	at com.nametagedit.plugin.NametagEdit.onDisable(NametagEdit.java:73) ~[NametagEdit.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:399) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:93) ~[NametagEdit.jar:?]
+	at com.nametagedit.plugin.NametagEdit.onEnable(NametagEdit.java:40) ~[NametagEdit.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564) ~[paper-1.18.1.jar:git-Paper-181]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-181]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-181]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:24:21] [Server thread/ERROR]: [NametagEdit] 
+------------------------------------------------------
+[WARNING] NametagEdit v4.4.10 Failed to load! [WARNING]
+------------------------------------------------------
+This might be an issue with reflection. REPORT this:
+> Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "com.nametagedit.plugin.packets.PacketWrapper.ChatComponentText" is null
+The plugin will now self destruct.
+------------------------------------------------------
+[19:24:21] [Server thread/INFO]: [EntityDuplicate] Enabling EntityDuplicate v1.0
+[19:24:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[19:24:21] [Thread-12/INFO]: [ClearLag] No updates found!
+[19:24:21] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[19:24:21] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
+[19:24:21] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:24:24] [Server thread/INFO]: [FarmingUpgrade] Enabling FarmingUpgrade v1.3.3
+[19:24:24] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.3-Release
+[19:24:24] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[19:24:24] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[19:24:24] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[19:24:24] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[19:24:24] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[19:24:27] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[19:24:27] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[19:24:27] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[19:24:27] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[19:24:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.2
+[19:24:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:24:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:24:27] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[19:24:27] [Server thread/INFO]: [Essentials] Using locale es_ES
+[19:24:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:24:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:24:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:24:27] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:24:27] [Server thread/INFO]: [ChestSort] Enabling ChestSort v12.1.0
+[19:24:27] [Server thread/INFO]: [ChestSort] Successfully hooked into Minepacks
+[19:24:27] [Server thread/INFO]: [ChestSort] Use permissions: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[19:24:27] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[19:24:27] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[19:24:27] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[19:24:27] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[19:24:27] [Server thread/INFO]: [ChestSort] Check for updates: true
+[19:24:27] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[19:24:27] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[19:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chestsort [12.1.0]
+[19:24:27] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v2.18.3
+[19:24:27] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[19:24:27] [Server thread/WARN]: [ItemEdit] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.1 which is not a depend or softdepend of this plugin.
+[19:24:27] [Server thread/INFO]: [ItemEdit] Hooked into PlaceHolderAPI:
+[19:24:27] [Server thread/INFO]: [ItemEdit] placeholders:
+[19:24:27] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[19:24:27] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[19:24:27] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[19:24:27] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[19:24:27] [Server thread/INFO]: [ItemEdit]       Values: inventory, equip, inventoryandequip, hand, offhand, head, chest, legs, feet
+[19:24:27] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[19:24:27] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[19:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: itemedit [1.0]
+[19:24:27] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[19:24:27] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:24:27] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:24:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:24:28] [Server thread/INFO]: Preparing spawn area: 0%
+[19:24:28] [Server thread/INFO]: Preparing spawn area: 0%
+[19:24:29] [Server thread/INFO]: Time elapsed: 908 ms
+[19:24:29] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:24:29] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:24:29] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:24:29] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.1
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Is Essentials hooked? true
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Are afk players ignored? true, with a min afk time of 60000
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Are vanished players ignored? true
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Ignoring 1 game modes
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Loading language: en-us
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] This server is running on Spigot
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Using chat messaging
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Enabling BetterSleeping in world world
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] Using 'percentage' as sleepers-needed calculator
+[19:24:29] [Server thread/INFO]: [CONFIG] [BetterSleeping4] The percentage is set to 30%
+[19:24:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bettersleeping [4.0.1]
+[19:24:29] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.2.0
+[19:24:29] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
+[19:24:29] [Server thread/INFO]: [YamipaPlugin] No placed fake images configuration file found
+[19:24:29] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 999 (git e02eedd9)
+[19:24:29] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[19:24:29] [Server thread/INFO]: [Slimefun] Creating directories...
+[19:24:29] [Server thread/INFO]: [Slimefun] Loading language files...
+[19:24:29] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[19:24:29] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, cs, bg, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, th, tl
+[19:24:29] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[19:24:29] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[19:24:29] [Server thread/INFO]: [Slimefun] Loading Tags...
+[19:24:29] [Server thread/INFO]: [Slimefun] Loading items...
+[19:24:30] [Server thread/INFO]: [Slimefun] Loading researches...
+[19:24:30] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[19:24:30] [Server thread/INFO]: [Slimefun] Registering listeners...
+[19:24:30] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[19:24:30] [Server thread/INFO]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.1
+[19:24:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: slimefun [DEV - 999 (git e02eedd9)]
+[19:24:30] [Server thread/INFO]: [Slimefun] Hooked into Plugin: WorldEdit v2.0.2-SNAPSHOT-84;faa2477
+[19:24:30] [Server thread/INFO]: [Slimefun] Hooked into Plugin: ClearLag v3.2.2
+[19:24:30] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 877ms
+[19:24:30] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.2
+[19:24:30] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[19:24:30] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[19:24:30] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[19:24:30] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[19:24:30] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[19:24:30] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.2
+[19:24:30] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:24:30] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.4
+[19:24:30] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[19:24:30] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[19:24:30] [Server thread/INFO]: --------------------
+[19:24:30] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[19:24:30] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[19:24:30] [Server thread/INFO]: --------------------
+[19:24:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[19:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[19:24:30] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:24:30] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.14.2-31415198
+[19:24:30] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.18.1)...[0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] MythicMobs PlaceholderAPI Support has been enabled![0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] Loaded ProtocolLib packet handlers[0m
+[19:24:30] [Server thread/WARN]: [MythicMobs] Loaded class com.comphenix.protocol.PacketType from ProtocolLib v4.7.0 which is not a depend or softdepend of this plugin.
+[19:24:30] [Server thread/INFO]: [MythicMobs] MythicMobs ProtocolLib Support has been enabled![0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[19:24:30] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\Alice\Downloads\minecraft 1.18.1 - copia - copia\plugins\MythicMobs\SavedData
+[19:24:30] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\Alice\Downloads\minecraft 1.18.1 - copia - copia\plugins\MythicMobs\SavedData\worlds
+[19:24:31] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 8 mobs.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 vanilla mob overrides.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 skills.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 random spawns.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 mythic items.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob spawners.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[19:24:31] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v4.14.2 (build 31415198) has been successfully loaded![0m[0m
+[19:24:31] [Server thread/INFO]: [Codex] Enabling Codex v1.11.1
+[19:24:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: codex [1.11.1]
+[19:24:31] [Server thread/INFO]: [Codex] Has been enabled! Version: 1.11.1
+[19:24:31] [Server thread/INFO]: [Codex] Thanks for using my plugin!  ~Ajneb97
+[19:24:31] [Server thread/INFO]: [Graves] Enabling Graves v4.5
+[19:24:31] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[19:24:31] [Server thread/INFO]: [Graves] Integration: Hooked into FastAsyncWorldEdit 2.0.2-SNAPSHOT-84;faa2477.
+[19:24:31] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.6+1cff55f.
+[19:24:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.5]
+[19:24:31] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.1.
+[19:24:31] [Server thread/INFO]: [Graves] Integration: Hooked into ChestSort 12.1.0.
+[19:24:31] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[19:24:31] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[19:24:31] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[19:24:31] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.2.7
+[19:24:31] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard found, extra protection enabled.
+[19:24:31] [Server thread/INFO]: [CrisTreeCapitator] An update is available, use /tc update to update to the lastest version (from v6.2.7 to v6.2.10)
+[19:24:31] [Server thread/INFO]: [CrisTreeCapitator] Enabled
+[19:24:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:24:32] [Server thread/INFO]: Running delayed init tasks
+[19:24:32] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[19:24:32] [Server thread/WARN]: [FastAsyncWorldEdit] Loaded class com.sk89q.worldguard.protection.association.RegionAssociable from WorldGuard v7.0.6+1cff55f which is not a depend or softdepend of this plugin.
+[19:24:32] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[19:24:32] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[19:24:32] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:24:32] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[19:24:32] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[19:24:32] [Server thread/INFO]: [Slimefun] Found 1.059 Recipes!
+[19:24:32] [Server thread/INFO]: 
+[19:24:32] [Server thread/INFO]: ######################### - Slimefun vDEV - 999 (git e02eedd9) - #########################
+[19:24:32] [Server thread/INFO]: 
+[19:24:32] [Server thread/INFO]: Successfully loaded 545 Items and 258 Researches
+[19:24:32] [Server thread/INFO]: ( 545 Items from Slimefun, 0 Items from 0 Addons )
+[19:24:32] [Server thread/INFO]: 
+[19:24:32] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[19:24:32] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[19:24:32] [Server thread/INFO]: 
+[19:24:32] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[19:24:32] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[19:24:32] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[19:24:32] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[19:24:32] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[19:24:32] [Server thread/INFO]: 
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[19:24:32] [Server thread/INFO]: [Slimefun] This may take a long time...
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 2ms)
+[19:24:32] [Server thread/INFO]: [Slimefun] Loaded a total of 1 Blocks for World "world"
+[19:24:32] [Server thread/INFO]: [Slimefun] Avg: 2ms/Block
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[19:24:32] [Server thread/INFO]: [Slimefun] This may take a long time...
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:24:32] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[19:24:32] [Server thread/INFO]: [Slimefun] This may take a long time...
+[19:24:32] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:24:32] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[19:24:32] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[19:24:32] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[19:24:32] [Server thread/WARN]: [Slimefun] Loaded class com.sk89q.worldguard.bukkit.WorldGuardPlugin from WorldGuard v7.0.6+1cff55f which is not a depend or softdepend of this plugin.
+[19:24:32] [Server thread/INFO]: [dough: protection] Loaded Protection Module "WorldGuard v7.0.6+1cff55f"
+[19:24:32] [Server thread/WARN]: [Slimefun] Loaded class net.coreprotect.CoreProtect from CoreProtect v20.4 which is not a depend or softdepend of this plugin.
+[19:24:32] [Server thread/INFO]: [dough: protection] Loaded Protection Module "CoreProtect"
+[19:24:32] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[19:24:32] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #28
+[19:24:32] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[19:24:32] [Server thread/INFO]: [Slimefun] Metrics build #28 started.
+[19:24:32] [ForkJoinPool.commonPool-worker-1/INFO]: [Chests++] New version of the plugin was found: 2.6-Release
+[19:24:32] [ForkJoinPool.commonPool-worker-1/INFO]: [Chests++] Download at: https://dev.bukkit.org/projects/chests-plus-plus/files
+[19:24:32] [Server thread/INFO]: [Graves] Update: Outdated version detected 4.5, latest version is 4.6, https://www.spigotmc.org/resources/graves.74208/
+[19:24:32] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[19:24:32] [Server thread/INFO]: [ChestsPlusPlus] Chests++ Successfully Loaded Config and Recipes
+[19:24:32] [Server thread/INFO]: [ChestsPlusPlus] Chests++ enabled!
+[19:24:32] [Server thread/INFO]: Done (20.894s)! For help, type "help"
+[19:24:32] [Server thread/INFO]: Timings Reset
+[19:24:32] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[19:24:32] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[19:24:32] [Craft Scheduler Thread - 0 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:24:32] [Server thread/WARN]: [ChestSort] **************************************************
+[19:24:32] [Server thread/WARN]: [ChestSort] * There is a new version of ChestSort available!
+[19:24:32] [Server thread/WARN]: [ChestSort] *  
+[19:24:32] [Server thread/WARN]: [ChestSort] * Your version:   12.1.0
+[19:24:32] [Server thread/WARN]: [ChestSort] * Latest version: 12.1.4
+[19:24:32] [Server thread/WARN]: [ChestSort] *  
+[19:24:32] [Server thread/WARN]: [ChestSort] * Please update to the newest version.
+[19:24:32] [Server thread/WARN]: [ChestSort] *  
+[19:24:32] [Server thread/WARN]: [ChestSort] * Download:
+[19:24:32] [Server thread/WARN]: [ChestSort] *   https://www.chestsort.de
+[19:24:32] [Server thread/WARN]: [ChestSort] **************************************************
+[19:24:33] [User Authenticator #1/INFO]: UUID of player zubzertata is 404fc930-324d-3eaa-85ef-abde1c273a5f
+[19:24:33] [Server thread/INFO]: zubzertata joined the game
+[19:24:33] [Server thread/INFO]: zubzertata[/127.0.0.1:57993] logged in with entity id 262 at ([world]-36.49962863239526, 63.0, -3.2911024815147605)
+[19:24:44] [Server thread/INFO]: zubzertata issued server command: /gamemode creative
+[19:24:56] [User Authenticator #1/INFO]: UUID of player elpepe is e45194f2-e467-3ac1-b172-9c37d9c2a312
+[19:24:56] [Server thread/INFO]: elpepe joined the game
+[19:24:57] [Server thread/INFO]: elpepe[/127.0.0.1:58025] logged in with entity id 388 at ([world]-38.068471810274524, 63.0, -2.76997503761115)
+[19:25:36] [Craft Scheduler Thread - 8 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: TimeoutException: null
+[19:25:36] [Craft Scheduler Thread - 8 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[19:26:12] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[19:26:12] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (4 change(s) queued)
+[19:26:58] [Server thread/INFO]: zubzertata lost connection: Disconnected
+[19:26:58] [Server thread/INFO]: zubzertata left the game
+[19:27:04] [Server thread/INFO]: elpepe lost connection: Disconnected
+[19:27:04] [Server thread/INFO]: elpepe left the game
+[19:27:11] [Server thread/INFO]: Stopping the server
+[19:27:11] [Server thread/INFO]: Stopping server
+[19:27:11] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.2.7
+[19:27:11] [Server thread/INFO]: [CrisTreeCapitator] Disabled
+[19:27:11] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[19:27:11] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[19:27:11] [Server thread/INFO]: [Graves] Disabling Graves v4.5
+[19:27:11] [Server thread/INFO]: [Codex] Disabling Codex v1.11.1
+[19:27:11] [Server thread/INFO]: [Codex] Has been disabled! Version: 1.11.1
+[19:27:11] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v4.14.2-31415198
+[19:27:11] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...[0m
+[19:27:11] [Server thread/INFO]: [MythicMobs] All active settings have been saved.[0m
+[19:27:11] [Server thread/INFO]: [MythicMobs] [36mUNLOADED[0m
+[19:27:11] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[19:27:11] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[19:27:11] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.4
+[19:27:11] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[19:27:12] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v20.4
+[19:27:12] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.2
+[19:27:12] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[19:27:12] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.2
+[19:27:12] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 999 (git e02eedd9)
+[19:27:12] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2022-02-03-19-27.zip
+[19:27:12] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.0.2-SNAPSHOT-84;faa2477
+[19:27:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:27:12] [Server thread/INFO]: [YamipaPlugin] Disabling YamipaPlugin v1.2.0
+[19:27:12] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.1
+[19:27:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[19:27:12] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v2.18.3
+[19:27:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: itemedit
+[19:27:12] [Server thread/INFO]: [ChestSort] Disabling ChestSort v12.1.0
+[19:27:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.2
+[19:27:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:27:12] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:27:12] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.3-Release
+[19:27:13] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[19:27:13] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[19:27:13] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[19:27:13] [Server thread/INFO]: [FarmingUpgrade] Disabling FarmingUpgrade v1.3.3
+[19:27:13] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.10
+[19:27:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.0
+[19:27:13] [Server thread/INFO]: [EntityDuplicate] Disabling EntityDuplicate v1.0
+[19:27:13] [Server thread/INFO]: [ChestsPlusPlus] Disabling ChestsPlusPlus v2.5-Release
+[19:27:13] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[19:27:13] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:27:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[19:27:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.86
+[19:27:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:27:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:27:13] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:27:13] [Server thread/INFO]: Saving players
+[19:27:14] [Server thread/INFO]: Saving worlds
+[19:27:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:27:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:27:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:27:15] [Server thread/INFO]: Flushing Chunk IO
+[19:27:15] [Server thread/INFO]: Closing Thread Pool
+[19:27:15] [Server thread/INFO]: Closing Server

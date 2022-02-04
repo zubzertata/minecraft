@@ -1,0 +1,12 @@
+update-checker: true
+update-checker-period: 3600
+limit-chests: false
+limit-chestlinks-amount: 0
+should-animate-all-chests: true
+run-hoppers-unloaded-chunks: false
+display_chestlink_armour_stand: true
+display_autocraft_armour_stands: true
+set-filter-itemframe-invisible: false
+world-blacklist:
+- ''
+language-file: default

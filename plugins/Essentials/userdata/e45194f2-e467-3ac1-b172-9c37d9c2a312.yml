@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1643925639298
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1643927224086
+  login: 1643927097059
+money: '0'
+last-account-name: elpepe
+logoutlocation:
+  world: 4c6e2416-dcd1-49cd-b09c-9f81ddd38c78
+  world-name: world
+  x: -37.579065198362166
+  y: 63.0
+  z: -10.220543058204715
+  yaw: -3.3794267177581787
+  pitch: 40.03112030029297
+homes:
+  home:
+    world: 4c6e2416-dcd1-49cd-b09c-9f81ddd38c78
+    world-name: world
+    x: -30.626184871146165
+    y: 64.0
+    z: -46.1421458089004
+    yaw: -33.745113372802734
+    pitch: 23.99932861328125
+lastlocation:
+  world: 4c6e2416-dcd1-49cd-b09c-9f81ddd38c78
+  world-name: world
+  x: -23.91998348294976
+  y: 62.0
+  z: -42.82703158259048
+  yaw: 11.094757080078125
+  pitch: 57.14990997314453

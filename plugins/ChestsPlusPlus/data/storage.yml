@@ -1,0 +1,102 @@
+chests++:
+  ==: ConfigStorage
+  chests:
+    e45194f2-e467-3ac1-b172-9c37d9c2a312: {}
+    404fc930-324d-3eaa-85ef-abde1c273a5f:
+      Mama:
+        ==: ChestLinkStorage
+        inventory:
+        - ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: PINK_CONCRETE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Rainbow
+              Concrete "},{"italic":false,"color":"gray","text":"(Valentine''s Day)"}],"text":""}'
+            lore:
+            - '{"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"["},{"italic":false,"color":"light_purple","text":"Valentine''s
+              Day Edition"},{"italic":false,"color":"dark_purple","text":"]"}],"text":""}'
+            PublicBukkitValues:
+              slimefun:slimefun_item: RAINBOW_CONCRETE_VALENTINE
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        locationInfo:
+        - ==: LocationInfo
+          Location:
+            ==: org.bukkit.Location
+            world: world
+            x: -45.0
+            y: 62.0
+            z: -7.0
+            pitch: 0.0
+            yaw: 0.0
+        playerUUID: 404fc930-324d-3eaa-85ef-abde1c273a5f
+        members:
+        - e45194f2-e467-3ac1-b172-9c37d9c2a312
+        isPublic: false
+        inventoryName: Mama
+        sortMethod: 'OFF'
+  autocraftingtables:
+    e45194f2-e467-3ac1-b172-9c37d9c2a312: {}
+  parties:
+    e45194f2-e467-3ac1-b172-9c37d9c2a312:
+      ==: PlayerPartyStorage
+      owner: e45194f2-e467-3ac1-b172-9c37d9c2a312
+      ownedParties: {}
+    404fc930-324d-3eaa-85ef-abde1c273a5f:
+      ==: PlayerPartyStorage
+      owner: 404fc930-324d-3eaa-85ef-abde1c273a5f
+      ownedParties: {}
